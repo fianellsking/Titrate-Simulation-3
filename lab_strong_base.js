@@ -15,7 +15,7 @@ const kaValues = {
 
 // 1. สุ่มความเข้มข้นกรดอ่อน (0.05 - 0.5 M)
 function randomizeAcid() {
-    state.targetAcidConc = (Math.random() * (0.12 - 0.07) + 0.01).toFixed(3);
+    state.targetAcidConc = (Math.random() * (0.12 - 0.07) + 0.07).toFixed(3);
     document.getElementById('acidConcDisp').value = state.targetAcidConc;
 }
 

@@ -8,7 +8,7 @@ const state = {
 const kbValues = { "NH3": 1.8e-5 };
 
 function randomizeBase() {
-    state.targetBaseConc = (Math.random() * (0.12 - 0.07) + 0.01).toFixed(3);
+    state.targetBaseConc = (Math.random() * (0.12 - 0.07) + 0.07).toFixed(3);
     document.getElementById('baseConcDisp').value = state.targetBaseConc;
 }
 

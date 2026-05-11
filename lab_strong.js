@@ -8,7 +8,7 @@ const state = {
 };
 
 function randomizeAcid() {
-    state.targetAcidConc = (Math.random() * (0.10 - 0.07) + 0.01).toFixed(3);
+    state.targetAcidConc = (Math.random() * (0.10 - 0.07) + 0.07).toFixed(3);
     document.getElementById('acidConcDisp').value = state.targetAcidConc + " M";
 }
 
